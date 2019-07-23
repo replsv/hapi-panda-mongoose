@@ -22,7 +22,7 @@ module.exports = {
     async register(server, options) {
 
         const settings = Hoek.applyToDefaults(internals.defaults, options);
-        const connector = new MongooseWrapper(settings, server);
+        const connector = new MongooseWrapper(server, settings);
         await new Promise((resolve, reject) => {
 
             connector.on('ready', () => {
