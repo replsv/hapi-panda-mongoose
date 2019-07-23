@@ -1,0 +1,38 @@
+{
+  "name": "hapi-panda-mongoose",
+  "version": "0.1.0",
+  "description": "Handle Mongoose handshake and initial setup for Hapi18",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "lab -a code -t 100 -L -I __core-js_shared__"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/replsv/hapi-panda-mongoose.git"
+  },
+  "keywords": [
+    "hapi",
+    "hapi18",
+    "mongoose",
+    "mongodb",
+    "nosql"
+  ],
+  "engines": {
+    "node": ">= 8"
+  },
+  "author": "Gabriel C <shellcooking@gmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/replsv/hapi-panda-es/issues"
+  },
+  "homepage": "https://github.com/replsv/hapi-panda-es#readme",
+  "dependencies": {
+    "@hapi/hoek": "^8.0.2",
+    "mongoose": "^5.6.6"
+  },
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "eslint-config-hapi": "^12.0.0",
+    "eslint-plugin-hapi": "^4.1.0"
+  }
+}
