@@ -2,7 +2,7 @@
   "name": "hapi-panda-mongoose",
   "version": "0.1.0",
   "description": "Handle Mongoose handshake and initial setup for Hapi18",
-  "main": "lib/index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "lab -a code -t 100 -L -I __core-js_shared__"
   },
